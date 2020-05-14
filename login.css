@@ -1,0 +1,69 @@
+/*body {
+    background-image
+    background-color: aqua;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}*/
+
+.login-page {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: rgb(67, 104, 104);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: rgb(12, 14, 11);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+    background: rgb(30, 108, 210);
+}
+
+/*change message properties*/
+.form .message{
+    margin: 15px;
+    color: cornsilk;
+    font-size: 12px;
+}
+
+/*change message anchor properties*/
+.form .message a{
+    color: cyan;
+    text-decoration: none;
+}
+
+.form .register-form{
+    display: none;
+}
